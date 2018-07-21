@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: angular5_springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: DELL
+Implementation-Vendor-Id: angular5_springboot
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/study/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

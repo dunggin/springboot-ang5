@@ -1,0 +1,6 @@
+angular5_springboot\service\StudentService.class
+angular5_springboot\Application.class
+angular5_springboot\entity\Student.class
+angular5_springboot\service\StudentServiceImpl.class
+angular5_springboot\controller\StudentController.class
+angular5_springboot\dao\StudentRepo.class
