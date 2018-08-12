@@ -64,7 +64,7 @@
 			<artifactId>HikariCP</artifactId>
 			<version>${hikaricp.version}</version>
 		</dependency>
-		
+
 		<!-- MySQL JDBC driver -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -72,6 +72,19 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- lombok-maven -->
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok-maven</artifactId>
+		    <version>1.18.0.0</version>
+		    <type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.11.0</version>
+		</dependency>
 	</dependencies>
 
 	<!-- maven build section -->
@@ -83,6 +96,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				
 			</plugin>
+			
 			<!-- Encoding UTF-8 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
